@@ -2,4 +2,4 @@
 
 > Try it out: https://stephenlb.github.io/badger
 
-This project uses the Spoken SDK to capture voice transcripts.
+This project uses the Spoken SDK to capture voice transmit the transcript using PubNub.

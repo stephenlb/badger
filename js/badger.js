@@ -72,11 +72,11 @@ function show(character='badger') {
     img.src = `https://stephenlb.github.io/badger/media/${character}.gif`;
 
     img.className  = 'badger';
-    img.style.top  = Math.ceil(Math.random()*window.innerHeight) + 'px';
-    img.style.left = Math.ceil(Math.random()*window.innerWidth)  + 'px';
+    img.style.top  = Math.ceil(Math.random()*window.innerHeight)  + 'px';
+    img.style.left = Math.ceil(Math.random()*window.innerWidth/2) + 'px';
 
     body.appendChild(img);
-    setTimeout( _ => body.removeChild(img), 5000 );
+    setTimeout( _ => body.removeChild(img), 5000 + Math.random() * 2000 );
 }
 
 })();
