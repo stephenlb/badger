@@ -80,7 +80,7 @@ You can use the following code to add voice-controls to your app.
 
 Use this code on the device with the microphone.
 
-```javascript
+```html
 <script src="https://stephenlb.github.io/spoken/spoken.js"></script>
 <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.2.min.js"></script>
 <script>( async e => { 'use strict';
@@ -107,7 +107,7 @@ spoken.listen().then( transcript => {
 
 Use this code on the remote device like an IoT lightbulb.
 
-```javascript
+```html
 <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.2.min.js"></script>
 <script>( async e => { 'use strict';
 
