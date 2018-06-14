@@ -42,7 +42,17 @@ You can also say: "Badger Badger Badger.".
 
 ## Receive Voice Commands
 
-...
+Using any one of the
+[PubNub SDKs](https://www.pubnub.com/docs)
+you can receive commands driving by your voice.
+
+```javascript
+pubnub.subscribe({ channels: ['badger'] });
+pubnub.addListener( { message : transcript => {
+    // DO SOMETHING HERE WITH YOUR VOICE TRANSCRIPT
+    console.log(transcript);
+} );
+```
 
 ## Building apps with Voice Controls
 
