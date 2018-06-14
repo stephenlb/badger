@@ -6,7 +6,7 @@ img.badger {
 }
 
 @keyframes orbit {
-    0%    { transform: translateX(50vw)  scale(1.0) }
-    50%   { transform: translateX(-10vw) scale(2.0) }
-    100%  { transform: translateX(50vw)  scale(1.0) }
+    0%    { transform: translateX(50vw)  scale(-9.0) }
+    50%   { transform: translateX(-10vw) scale( 6.0) }
+    100%  { transform: translateX(50vw)  scale(-9.0) }
 }
