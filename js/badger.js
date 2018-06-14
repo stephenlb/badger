@@ -16,11 +16,19 @@ subscribe({ channel : 'badger', message : message });
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function listen() {
     spoken.listen().then( transcript => {
-        request({ url : publish + JSON.stringify(transcript) })
+        request({ url : publish + JSON.stringify(transcript) });
+        //listen();
     } ).catch( e => console.info('Already listening.') );
 }
 
-setInterval( listen, 2000 );
+/*
+listen();
+spoken.listen.on.end(listen);
+spoken.listen.on.error( e => listen() );
+*/
+spoken.listen.on.partial( transcript => transcript.split(' ').forEach(show) );
+
+//setInterval( listen, 2000 );
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Button Badger Badger Badger Badger Badger 
