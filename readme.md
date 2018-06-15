@@ -97,7 +97,7 @@ const pubnub = new PubNub({
 
 // Transmit your captured voice transcription
 spoken.listen().then( transcript => {
-    pubnub.publish({ message : transcript });
+    pubnub.publish({ message : transcript, channel : data_channel });
 } ).catch( e => console.info('Already listening.') );
 
 })()</script>
