@@ -1,6 +1,6 @@
 # Say Badger Badger Badger
 
-> Try it out: https://stephenlb.github.io/badger
+> **Try it out:** https://stephenlb.github.io/badger
 
 Use your voice with ( [Spoken SDK](https://github.com/stephenlb/spoken) )
 to capture and transmit your voice-transcript on the PubNub Network.
@@ -135,11 +135,12 @@ Now you can create a voice controlled device in just a few minutes.
 
 ## Badgers, Mushrooms and a Snake
 
-> [Original Badgers Animation](https://en.wikipedia.org/wiki/Badgers_(animation)).
+The original meme cartoon was published on 2 September 2003.
+
+> [Original Badgers Animation](https://en.wikipedia.org/wiki/Badgers_(animation))
 
 ![Badgers Animation](https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Badgers_Badgers.gif/220px-Badgers_Badgers.gif)
 
-The original meme cartoon was published on 2 September 2003.
 The cartoon loops indefinitely.
 The first two badger scenes contain twelve badgers.
 And subsequent badger scenes contain eleven badgers.

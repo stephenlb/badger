@@ -1,3 +1,19 @@
+body {
+    margin: 100px;
+    text-align: center;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+}
+button#listen {
+    width: 280px;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
 img.badger {
     position: absolute;
     width: 100px;
